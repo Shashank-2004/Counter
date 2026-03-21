@@ -22,9 +22,9 @@ const App = () => {
   }
 
   return (
-    <div>
-      <div className='text-center bg-sky-400
-       justify-center items-center h-108 w-80 ml-150 mt-40 rounded-3xl'>
+      <div className="flex justify-center items-center min-h-screen bg-gray-100">
+
+      <div className="bg-sky-400 text-center p-6 rounded-3xl w-[90%] max-w-sm">
         <h1 className='mb-4 pt-4 text-3xl text-white'>COUNTER</h1>
         <img src='https://i.pinimg.com/736x/6b/24/fc/6b24fc9012ca3b6debc5892a33335d9b.jpg' className='h-50 ml-22.5 w-35'/>
         <h2 className='text-2xl mt-2 mb-4 text-white'>Value : {counter}</h2>
