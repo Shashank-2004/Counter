@@ -28,9 +28,9 @@ const App = () => {
         <h1 className='mb-4 pt-4 text-3xl text-white'>COUNTER</h1>
         <img src='https://i.pinimg.com/736x/6b/24/fc/6b24fc9012ca3b6debc5892a33335d9b.jpg' className='h-50 ml-24.5 w-35'/>
         <h2 className='text-2xl mt-2 mb-4 text-white'>Value : {counter}</h2>
-        <button onClick={addValue} className='bg-black text-white w-35 p-1 rounded-2xl text-xl'>Count</button>
+        <button onClick={removeValue} className='bg-red-500 text-white w-35 p-1 rounded-2xl text-xl'>RESET</button>
         <br/>
-        <button onClick={removeValue} className='bg-red-500 text-white w-35 p-1 mt-2 rounded-2xl text-xl'>Reset</button>
+        <button onClick={addValue} className='bg-purple-500 text-white w-35 p-1 mt-2 rounded-2xl text-xl'>COUNT</button>
       </div>
     </div>
   )
