@@ -31,7 +31,14 @@ const App = () => {
       </div>
         <img src='https://i.pinimg.com/736x/6b/24/fc/6b24fc9012ca3b6debc5892a33335d9b.jpg' className='w-40 sm:w-48 md:w-56 mx-auto rounded-lg'/>
         <h2 className='text-2xl mt-2 mb-4 text-white'>Value : {counter}</h2>
-        <button onClick={addValue} className='bg-purple-500 text-white w-35 p-1 rounded-2xl text-xl'>COUNT</button>
+        <button 
+            onClick={addValue} 
+            className="bg-purple-500 text-white w-full py-2 rounded-2xl text-xl 
+             transition duration-150 ease-in-out 
+             active:scale-95 active:bg-purple-700"
+            >
+  COUNT
+</button>
       </div>
     </div>
   )
